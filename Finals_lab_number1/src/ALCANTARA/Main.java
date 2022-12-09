@@ -49,6 +49,8 @@ public class Main {
                 System.out.println("You've chosen Disable type passenger ");
                 System.out.println("Your fare is Php "+FARE);
                 break;
+            default:
+                System.out.println("Please Enter numbers 1 to 4 only!");
         }
 
     }
